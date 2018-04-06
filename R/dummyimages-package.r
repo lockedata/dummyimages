@@ -1,5 +1,7 @@
-#' dummyimages.
+#' dummyimage.
 #'
-#' @name dummyimages
+#' @importFrom grDevices col2rgb
+#'
+#' @name dummyimage
 #' @docType package
 NULL

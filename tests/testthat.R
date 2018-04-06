@@ -1,4 +1,4 @@
 library(testthat)
-library(dummyimages)
+library(dummyimage)
 
-test_check("dummyimages")
+test_check("dummyimage")

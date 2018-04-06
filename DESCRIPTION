@@ -1,9 +1,10 @@
-Package: dummyimages
-Title: What the Package Does (one line, title case)
+Package: dummyimage
+Title: Placeholder Images
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.4.0)
+Authors@R: person("Steph", "Locke", email = "stephanie.g.locke@gmail.com", role = c("aut", "cre"))
+Description: Sometimes we need dummy images or placeholders for use in things like rmarkdown documents. 
+              Package is inspired by <http://dummyimage.com>.
+Depends: R (>= 3.3.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -12,3 +13,5 @@ Suggests: covr,
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+Import: magick
+RoxygenNote: 6.0.1
